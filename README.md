@@ -6,7 +6,7 @@
 
 ## 📍 Objetivo
 
-Desenvolvimento de Aplicação Web com aplicação de técnicas de IA Generativa para controle de regras de negocio.
+Desenvolvimento de Aplicação Web com aplicação de técnicas de IA Generativa para controle de regras de negócio.
 
 <br><br>
 
@@ -14,14 +14,25 @@ Desenvolvimento de Aplicação Web com aplicação de técnicas de IA Generativa
 
 | Rank | Prioridade | US | Estimativa | Sprint | Requisitos do parceiro |
 |------|------------|----|------------|--------|--------------------------|
-| #1 | Alta | Como gerente, quero utilizar linguagem natural em texto para criar novas regras de negócio. | 21 | 1 | RF1 |
-| #2 | Alta | Como gerente, quero listar as regras de negócio vigentes. | 8 | 1 | RF2 |
-| #3 | Alta | Como gerente, quero ver o resultado de forma clara. | 8 | 1 | RF3 |
-| #4 | Média | Como gerente, quero conseguir avaliar a qualidade da resposta da aplicação. | 13 | 2 | RF4 |
-| #5 | Média | Como gerente, quero ver o histórico de alterações. | 5 | 2 | RF5 |
-| #6 | Média | Como gerente, quero alterar para versões anteriores. | 13 | 2 | RF6 |
-| #7 | Baixa | Como gerente, quero ter observabilidade do sistema. | 8 | 3 | RF7 |
-| #8 | Baixa | Como gerente, quero ver graficos com os resultados. | 13 | 3 | RF8 |
+| #1 | Alta | Como gerente, quero utilizar linguagem natural em texto para criar novas regras de negócio, facilitando alteração de comissões. | 21 | 1 | RF1 |
+| #2 | Alta | Como gerente, quero listar as regras de negócio vigentes, para ter uma visão geral das regras. | 8 | 1 | RF2 |
+| #3 | Alta | Como gerente, quero ver o resultado de forma clara, da regra de negócio criada, em texto ou em código. | 8 | 1 | RF3 |
+| #4 | Média | Como gerente, quero conseguir avaliar a qualidade da resposta da aplicação, para maior assertividade. | 13 | 2 | RF4 |
+| #5 | Média | Como gerente, quero ver o histórico de alterações das regras de negócio, para ter uma visão ampla do fluxo de alterações. | 5 | 2 | RF5 |
+| #6 | Média | Como gerente, quero alterar para versões anteriores das regras de negócio, facilitando sazonalidade de comissões. | 13 | 2 | RF6 |
+| #7 | Baixa | Como gerente, quero ter observabilidade do sistema, para avaliar métricas de desempenho e efiência da aplicação. | 8 | 3 | RF7 |
+| #8 | Baixa | Como gerente, quero ver graficos com os resultados, para mais explicabilidade da aplicação. | 13 | 3 | RF8 |
+
+<br><br>
+
+<h2>🎯 Cenários de Teste</h2>
+
+| US | Cenário de Teste 1 | Cenário de Teste 2 |
+|----|------------------|--------------------|
+| **#01** | **Ação:** Gerente acessa a funcionalidade de criação de regras e insere a frase em linguagem natural "Vendedores recebem 10% de comissão em vendas acima de 1000 reais".<br><br>**Resultado esperado:** Sistema interpreta o texto, cria a regra de negócio e exibe o resultado das regras de negócio aplicadas. | **Ação:** Gerente tenta cadastrar uma regra com texto inválido ou incompreensível.<br><br>**Resultado esperado:** Sistema informa que a regra não pôde ser interpretada e solicita revsão. |
+| **#02** | **Ação:** Gerente acessa a página de listagem de regras de negócio.<br><br>**Resultado esperado:** Sistema exibe todas as regras vigentes cadastradas e histórico. | **Ação:** Gerente acessa a listagem quando não existem regras cadastradas.<br><br>**Resultado esperado:** Sistema exibe mensagem informando que não há regras vigentes. |
+| **#03** | **Ação:** Gerente acessa a lista de regras e seleciona uma regra cadastrada para visualizar.<br><br>**Resultado esperado:** Sistema exibe o resultado da regra de forma clara em formato de texto. | **Ação:** Gerente seleciona a opção de visualizar a regra em formato de código.<br><br>**Resultado esperado:** Sistema apresenta o código gerado para a regra correspondente. |
+
 
 <br><br>
 
