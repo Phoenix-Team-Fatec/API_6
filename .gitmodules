@@ -1,0 +1,3 @@
+[submodule "API_6_ML"]
+	path = API_6_ML
+	url = git@github.com:Phoenix-Team-Fatec/API_6_ML.git
