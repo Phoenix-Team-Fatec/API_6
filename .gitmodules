@@ -4,3 +4,6 @@
 [submodule "API_6_frontend"]
 	path = API_6_frontend
 	url = https://github.com/Phoenix-Team-Fatec/API_6_frontend.git
+[submodule "API_6_backend"]
+	path = API_6_backend
+	url = https://github.com/Phoenix-Team-Fatec/API_6_backend.git
