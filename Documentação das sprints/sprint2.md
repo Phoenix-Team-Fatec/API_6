@@ -9,7 +9,7 @@
 |#5|Frontend| Card para exibir resultado do cálculo de comissão |🕓|
 |#6|Frontend| Exibir regras de negócio atreladas a um funcionário, marca ou loja ao calcular o comissioanamento |🕓|
 |#7|Back/Front| Integração entre frontend e backend |🕓|
-|#8|Backend| Criar classe Comissão |🕓|
+|#8|Backend| Criar classe Comissão e Cargo|🕓|
 |#9|Backend| MVC Funcionário |🕓|
 |#10|Backend| MVC Loja |🕓|
 |#11|Backend| MVC Marcas |🕓|
@@ -35,10 +35,10 @@
 |#5|O sistema deve exibir o resultado do cálculo de comissão em formato de card visual.|🕓|
 |#6|O sistema deve apresentar as regras de negócio aplicadas ao cálculo conforme funcionário, marca ou loja.|🕓|
 |#7|O frontend e backend devem estar integrados garantindo comunicação consistente via API.|🕓|
-|#8|O sistema deve possuir uma classe Comissão com estrutura adequada para cálculo e armazenamento dos dados.|🕓|
-|#9|O sistema deve implementar operações de CRUD para a entidade Funcionário.|🕓|
-|#10|O sistema deve implementar operações de CRUD para a entidade Loja.|🕓|
-|#11|O sistema deve implementar operações de CRUD para a entidade Marca.|🕓|
+|#8|O sistema deve possuir uma classe Comissão com a comissão de cada cargo e uma classe Cargo, com os tipos de cargo.|🕓|
+|#9|O sistema deve implementar a vizualização para a entidade Funcionário.|🕓|
+|#10|O sistema deve implementar a vizualização para a entidade Loja.|🕓|
+|#11|O sistema deve implementar a vizualização para a entidade Marca.|🕓|
 |#12|O sistema deve implementar operações de CRUD para regras de negócio.|🕓|
 |#13|O sistema deve disponibilizar uma rota que realize o cálculo de comissão com base nos parâmetros informados.|🕓|
 |#14|O sistema deve implementar um workflow com LangGraph seguindo o padrão ReAct definido.|🕓|
@@ -61,10 +61,10 @@
 | **#05** | **Ação:** Após cálculo, sistema exibe o resultado no card.<br><br>**Resultado esperado:** Card apresenta valor da comissão e contexto corretamente. | **Ação:** Novo cálculo é realizado.<br><br>**Resultado esperado:** Card é atualizado com os novos dados. |
 | **#06** | **Ação:** Usuário realiza cálculo de comissão para um funcionário específico.<br><br>**Resultado esperado:** Sistema exibe as regras de negócio aplicadas ao cálculo. | **Ação:** Usuário realiza cálculo sem regras cadastradas.<br><br>**Resultado esperado:** Sistema informa que não há regras aplicáveis. |
 | **#07** | **Ação:** Frontend envia requisição ao backend para cálculo.<br><br>**Resultado esperado:** Backend processa e retorna resposta válida. | **Ação:** Backend está indisponível.<br><br>**Resultado esperado:** Frontend exibe mensagem de erro amigável ao usuário. |
-| **#08** | **Ação:** Sistema instancia a classe Comissão durante o cálculo.<br><br>**Resultado esperado:** Objeto é criado com dados corretos. | **Ação:** Dados inválidos são fornecidos para a classe.<br><br>**Resultado esperado:** Sistema impede criação ou trata erro adequadamente. |
-| **#09** | **Ação:** Usuário cadastra um novo funcionário via API.<br><br>**Resultado esperado:** Funcionário é persistido com sucesso. | **Ação:** Usuário tenta cadastrar funcionário com dados incompletos.<br><br>**Resultado esperado:** Sistema retorna erro de validação. |
-| **#10** | **Ação:** Usuário cadastra uma nova loja.<br><br>**Resultado esperado:** Loja é salva corretamente no sistema. | **Ação:** Usuário tenta excluir loja vinculada a regras.<br><br>**Resultado esperado:** Sistema impede exclusão ou alerta sobre dependências. |
-| **#11** | **Ação:** Usuário cadastra uma nova marca.<br><br>**Resultado esperado:** Marca é persistida corretamente. | **Ação:** Usuário tenta cadastrar marca duplicada.<br><br>**Resultado esperado:** Sistema impede duplicidade. |
+| **#08** | **Ação:** Sistema instancia a classe Comissão associada a um Cargo.<br><br>**Resultado esperado:** Comissão é calculada corretamente conforme o tipo de cargo definido. | **Ação:** Sistema tenta calcular comissão para um cargo inexistente.<br><br>**Resultado esperado:** Sistema retorna erro informando que o cargo é inválido ou não encontrado. |
+| **#09** | **Ação:** Usuário acessa a visualização de Funcionários.<br><br>**Resultado esperado:** Sistema exibe a lista de funcionários com seus dados corretamente. | **Ação:** Usuário acessa a visualização sem funcionários cadastrados.<br><br>**Resultado esperado:** Sistema exibe mensagem informando ausência de registros. |
+| **#10** | **Ação:** Usuário acessa a visualização de Lojas.<br><br>**Resultado esperado:** Sistema exibe a lista de lojas cadastradas corretamente. | **Ação:** Usuário acessa a visualização sem lojas cadastradas.<br><br>**Resultado esperado:** Sistema exibe mensagem informando ausência de registros. |
+| **#11** | **Ação:** Usuário acessa a visualização de Marcas.<br><br>**Resultado esperado:** Sistema exibe a lista de marcas cadastradas corretamente. | **Ação:** Usuário acessa a visualização sem marcas cadastradas.<br><br>**Resultado esperado:** Sistema exibe mensagem informando ausência de registros. |
 | **#12** | **Ação:** Usuário cria uma nova regra de negócio.<br><br>**Resultado esperado:** Regra é salva e associada corretamente. | **Ação:** Usuário tenta criar regra inválida.<br><br>**Resultado esperado:** Sistema retorna erro de validação. |
 | **#13** | **Ação:** Sistema recebe requisição na rota de cálculo.<br><br>**Resultado esperado:** Retorna valor de comissão calculado corretamente. | **Ação:** Requisição com parâmetros inválidos é enviada.<br><br>**Resultado esperado:** Sistema retorna erro informativo. |
 | **#14** | **Ação:** Agente executa workflow completo no LangGraph.<br><br>**Resultado esperado:** Fluxo é concluído sem falhas. | **Ação:** Falha ocorre em uma etapa do fluxo.<br><br>**Resultado esperado:** Sistema registra erro e interrompe execução. |
