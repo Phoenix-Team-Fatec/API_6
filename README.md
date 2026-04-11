@@ -6,7 +6,7 @@
 
 ## 📍 Objetivo
 
-Desenvolvimento de Aplicação Web com aplicação de técnicas de IA Generativa para controle de regras de negócio.
+Desenvolvimento de uma aplicação web (RuleAI) que utiliza técnicas de IA Generativa para criação, gerenciamento e controle de regras de negócio, permitindo que gestores interajam com o sistema por meio de linguagem natural e acompanhem os resultados por meio de indicadores e gráficos, promovendo maior explicabilidade e eficiência nas decisões.
 
 <br><br>
 
@@ -20,18 +20,8 @@ Desenvolvimento de Aplicação Web com aplicação de técnicas de IA Generativa
 | #4 | Média | Como gerente, quero conseguir avaliar a qualidade da resposta da aplicação, para maior assertividade. | 13 | 2 | RF4 |
 | #5 | Média | Como gerente, quero ver o histórico de alterações das regras de negócio, para ter uma visão ampla do fluxo de alterações. | 5 | 2 | RF5 |
 | #6 | Média | Como gerente, quero alterar para versões anteriores das regras de negócio, facilitando sazonalidade de comissões. | 13 | 2 | RF6 |
-| #7 | Baixa | Como gerente, quero acompanhar e observar o funcionamento do sistema para entender seu desempenho e eficiência. | 8 | 3 | RF7 |
-| #8 | Baixa | Como gerente, quero ver graficos com os resultados das regras de negócio, para maior explicabilidade da aplicação. | 13 | 3 | RF8 |
-
-<br><br>
-
-<h2>🎯 Cenários de Teste</h2>
-
-| US | Cenário de Teste 1 | Cenário de Teste 2 |
-|----|------------------|--------------------|
-| **#01** | **Ação:** Gerente acessa a funcionalidade de criação de regras e insere a frase em linguagem natural "Vendedores recebem 10% de comissão em vendas acima de 1000 reais".<br><br>**Resultado esperado:** Sistema interpreta o texto, cria a regra de negócio e exibe o resultado das regras de negócio aplicadas. | **Ação:** Gerente tenta cadastrar uma regra com texto inválido ou incompreensível.<br><br>**Resultado esperado:** Sistema informa que a regra não pôde ser interpretada e solicita revsão. |
-| **#02** | **Ação:** Gerente acessa a página de listagem de regras de negócio.<br><br>**Resultado esperado:** Sistema exibe todas as regras vigentes cadastradas e histórico. | **Ação:** Gerente acessa a listagem quando não existem regras cadastradas.<br><br>**Resultado esperado:** Sistema exibe mensagem informando que não há regras vigentes. |
-| **#03** | **Ação:** Gerente acessa a lista de regras e seleciona uma regra cadastrada para visualizar.<br><br>**Resultado esperado:** Sistema exibe o resultado da regra de forma clara em formato de texto. | **Ação:** Gerente seleciona a opção de visualizar a regra em formato de código.<br><br>**Resultado esperado:** Sistema apresenta o código gerado para a regra correspondente. |
+| #7 | Baixa | Como gerente, quero acompanhar o funcionamento do sistema, para garantir a explicabilidade das decisões e avaliar seu desempenho e eficiência. | 8 | 3 | RF7 |
+| #8 | Baixa | Como gerente, quero visualizar indicadores por meio de gráficos com os resultados das regras de negócio, para monitorar e compreender melhor o desempenho da aplicação. | 13 | 3 | RF8 |
 
 
 <br><br>
@@ -40,7 +30,14 @@ Desenvolvimento de Aplicação Web com aplicação de técnicas de IA Generativa
 
 | Código | Descrição (derivada das US) |
 |:-----:|:------------------------------|
-| RF1 | ----------------------------------------------------------------------------------------- |
+| RF01 | O sistema deve permitir que o usuário crie novas regras de negócio utilizando linguagem natural em texto, facilitando a definição de comissões. |
+| RF02 | O sistema deve permitir a listagem das regras de negócio vigentes, apresentando uma visão geral ao usuário. |
+| RF03 | O sistema deve apresentar de forma clara o resultado da regra de negócio criada, podendo ser exibido em formato textual ou em código. |
+| RF04 | O sistema deve permitir que o usuário avalie a qualidade das respostas geradas pela aplicação, contribuindo para maior assertividade. |
+| RF05 | O sistema deve registrar e permitir a visualização do histórico de alterações das regras de negócio, possibilitando acompanhamento completo das modificações. |
+| RF06 | O sistema deve permitir a restauração de versões anteriores das regras de negócio, facilitando a adaptação a cenários sazonais. |
+| RF07 | O sistema deve permitir o acompanhamento do funcionamento geral da aplicação, fornecendo informações sobre desempenho e eficiência. |
+| RF08 | O sistema deve apresentar gráficos com os resultados das regras de negócio, proporcionando maior explicabilidade. |
 
 <br><br>
 
