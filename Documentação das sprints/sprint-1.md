@@ -1,3 +1,26 @@
+## 📥 Definition of Ready (DoR)
+
+### Sprint 1
+Uma User Story só poderá entrar na Sprint 1 se:
+- Estiver escrita no formato padrão (Como..., quero..., para...)
+- Estiver relacionada à criação, listagem ou execução de regras
+- Possuir critérios de aceitação definidos
+- Estiver estimada (story points)
+- Não possuir dependências externas bloqueantes
+- Estiver validada pelo Product Owner
+
+## ✅ Definition of Done (DoD)
+
+### Sprint 1
+Uma User Story será considerada concluída quando:
+- A funcionalidade de criação/listagem/execução estiver implementada
+- As regras de negócio funcionarem corretamente
+- Os resultados forem exibidos corretamente (texto ou código)
+- Não houver erros críticos
+- Estiver testada (manual ou automatizado)
+- Estiver integrada ao sistema
+
+---
 
 ## 📋 Backlog da Sprint 1
 
@@ -63,6 +86,7 @@
 |#35|Os testes de regressão devem validar o resultado final das comissões.|✅|
 
 ---
+
 <h2>🎯 Cenários de Teste da Sprint 1</h2>
 
 | US | Cenário de Teste 1 | Cenário de Teste 2 |
