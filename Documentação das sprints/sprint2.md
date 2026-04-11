@@ -1,3 +1,24 @@
+## 📥 Definition of Ready (DoR)
+### Sprint 2
+Uma User Story só poderá entrar na Sprint 2 se:
+- Atender todos os critérios do DoR da Sprint 1
+- Estiver relacionada à avaliação, histórico ou versionamento
+- Depender de funcionalidades já implementadas na Sprint 1
+- Possuir fluxo de uso claramente definido
+- Estiver refinada e compreendida pelo time
+
+## ✅ Definition of Done (DoD)
+### Sprint 2
+Uma User Story será considerada concluída quando:
+- Funcionalidades de avaliação, histórico ou versionamento estiverem implementadas
+- O histórico de alterações estiver sendo registrado corretamente
+- A restauração de versões funcionar sem inconsistências
+- As avaliações de resposta forem armazenadas corretamente
+- Não houver erros críticos
+- Estiver testada e validada
+  
+---
+
 ## 📋 Backlog da Sprint 2
 
 | RANK | TIPO | ITEM | STATUS |
