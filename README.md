@@ -56,12 +56,15 @@ Desenvolvimento de Aplicação Web com aplicação de técnicas de IA Generativa
 <br><br>
 
 ## 🗺️ MVP
+![PHOENIX TEAM - 6SEM - DomRock](https://github.com/user-attachments/assets/1fb3ae0a-adf6-4259-b434-437318e261be)
 
 <br>
 
 ## 🗂️ Documentos das Sprints
 
 [Sprint 1](./Documentação%20das%20sprints/sprint-1.md)
+
+[Sprint 2](./Documentação%20das%20sprints/sprint2.md)
 
 <br>
 
