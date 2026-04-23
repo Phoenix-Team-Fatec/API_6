@@ -36,14 +36,19 @@ Uma User Story será considerada concluída quando:
 |#11|Backend| MVC Marcas |🕓|
 |#12|Backend| MVC Regras de negócio |🕓|
 |#13|Backend| Rota para calcular comissão |🕓|
-|#14|ML/IA| Criar workflow com langgraph permitindo criar um agente com padrão ReAct, o agente deve seguir o seguinte fluxo: start -> agent <-> contexto -> code_generator -> code_review -> end |🕓|
-|#15|ML/IA| Criar rota para direcionar input do usuário para o agente  |🕓|
-|#16|ML/IA| Criar rota para realizar o cálculo do comissionamento |🕓|
-|#17|ML/IA| Gerar objeto da regra de negócio solicitada pelo usuário |🕓|
+|#14|ML/IA| Criar workflow com langgraph permitindo criar um agente com padrão ReAct, o agente deve seguir o seguinte fluxo: start -> agent <-> contexto -> code_generator -> code_review -> end |✅|
+|#15|ML/IA| Criar rota para direcionar input do usuário para o agente  |✅|
+|#16|ML/IA| Criar rota para realizar o cálculo do comissionamento |✅|
+|#17|ML/IA| Gerar objeto da regra de negócio solicitada pelo usuário |✅|
 |#18|ML/IA| Método para validação da regra de negócio gerada (pandas ou texto) |🕓|
-|#19|ML/IA| Revisão de código gerado antes da geração do objeto |🕓|
+|#19|ML/IA| Revisão de código gerado antes da geração do objeto |✅|
 |#20|ML/IA| Aplicar observabilidade do agente para controlar latência de resposta, quantidade de tokens, versionamento de prompts, qualidade da resposta |🕓|
 |#21|Scrum Master| Aceitar pull requests e realizar merge |🕓|
+|#22|Backend| Autenticação usuário  |🕓|
+|#23|Backend| MVC Usuário  |🕓|
+|#24|Backend/Frontend| Integração da tela de cadastro  |🕓|
+
+
 
 ## ✅ Critérios de Aceitação da Sprint 2
 
@@ -62,14 +67,17 @@ Uma User Story será considerada concluída quando:
 |#11|O sistema deve implementar a vizualização para a entidade Marca.|🕓|
 |#12|O sistema deve implementar operações de CRUD para regras de negócio.|🕓|
 |#13|O sistema deve disponibilizar uma rota que realize o cálculo de comissão com base nos parâmetros informados.|🕓|
-|#14|O sistema deve implementar um workflow com LangGraph seguindo o padrão ReAct definido.|🕓|
-|#15|O sistema deve disponibilizar uma rota que receba o input do usuário e direcione ao agente de IA.|🕓|
-|#16|O sistema deve disponibilizar uma rota para cálculo de comissionamento utilizando IA.|🕓|
-|#17|O sistema deve gerar automaticamente um objeto de regra de negócio a partir do input do usuário.|🕓|
+|#14|O sistema deve implementar um workflow com LangGraph seguindo o padrão ReAct definido.|✅|
+|#15|O sistema deve disponibilizar uma rota que receba o input do usuário e direcione ao agente de IA.|✅|
+|#16|O sistema deve disponibilizar uma rota para cálculo de comissionamento utilizando IA.|✅|
+|#17|O sistema deve gerar automaticamente um objeto de regra de negócio a partir do input do usuário.|✅|
 |#18|O sistema deve validar a regra de negócio gerada antes de sua execução.|🕓|
-|#19|O sistema deve revisar o código gerado pelo agente antes de transformá-lo em regra válida.|🕓|
+|#19|O sistema deve revisar o código gerado pelo agente antes de transformá-lo em regra válida.|✅|
 |#20|O sistema deve implementar observabilidade do agente incluindo métricas de latência, tokens e qualidade.|🕓|
 |#21|Os pull requests devem ser revisados, aprovados e integrados corretamente à branch principal.|🕓|
+|#22|O sistema deve permitir que o usuário se autentique com credenciais válidas, concedendo acesso seguro à aplicação.|🕓|
+|#23|O sistema deve implementar a estrutura MVC para gerenciamento de usuários, permitindo operações básicas de CRUD.|🕓|
+|#24|O sistema deve integrar a tela de cadastro ao backend, garantindo o envio e persistência correta dos dados do usuário.|🕓|
 
 ## 🎯 Cenários de Teste da Sprint 2
 
@@ -96,6 +104,9 @@ Uma User Story será considerada concluída quando:
 | **#19** | **Ação:** Código gerado pelo agente passa por revisão.<br><br>**Resultado esperado:** Código aprovado segue para execução. | **Ação:** Código contém erro ou risco.<br><br>**Resultado esperado:** Sistema reprova e não executa. |
 | **#20** | **Ação:** Sistema registra métricas do agente durante execução.<br><br>**Resultado esperado:** Dados de latência, tokens e qualidade são armazenados. | **Ação:** Falha na coleta de métricas.<br><br>**Resultado esperado:** Sistema registra erro sem impactar execução principal. |
 | **#21** | **Ação:** Desenvolvedor abre pull request.<br><br>**Resultado esperado:** PR é revisado e aprovado. | **Ação:** PR contém conflitos ou falhas.<br><br>**Resultado esperado:** PR não é aprovado até correção. |
+| **#22** | **Ação:** Usuário insere credenciais válidas e realiza login.<br><br>**Resultado esperado:** Sistema autentica e redireciona para área logada. | **Ação:** Usuário insere credenciais inválidas.<br><br>**Resultado esperado:** Sistema exibe mensagem de erro e não permite acesso. |
+| **#23** | **Ação:** Desenvolvedor acessa endpoints de usuário estruturados em MVC.<br><br>**Resultado esperado:** Sistema responde corretamente conforme arquitetura definida. | **Ação:** Tentativa de acesso com estrutura incorreta.<br><br>**Resultado esperado:** Sistema retorna erro ou comportamento inesperado controlado. |
+| **#24** | **Ação:** Usuário preenche formulário e envia dados válidos.<br><br>**Resultado esperado:** Dados são persistidos no backend corretamente. | **Ação:** Falha na comunicação com backend.<br><br>**Resultado esperado:** Sistema informa erro ao usuário. |
 
 <br>
 <a href="../README.md">
