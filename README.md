@@ -14,14 +14,16 @@ Desenvolvimento de uma aplicação web (RuleAI) que utiliza técnicas de IA Gene
 
 | Rank | Prioridade | US | Estimativa | Sprint | Requisitos do parceiro |
 |------|------------|----|------------|--------|--------------------------|
-| #1 | Alta | Como gerente, quero utilizar linguagem natural em texto para criar novas regras de negócio, facilitando alteração de comissões. | 21 | 1 | RF1 |
-| #2 | Alta | Como gerente, quero listar as regras de negócio vigentes, para ter uma visão geral das regras. | 8 | 1 | RF2 |
-| #3 | Alta | Como gerente, quero ver o resultado de forma clara, da regra de negócio criada, em texto ou em código. | 8 | 1 | RF3 |
-| #4 | Média | Como gerente, quero conseguir avaliar a qualidade da resposta da aplicação, para maior assertividade. | 13 | 2 | RF4 |
-| #5 | Média | Como gerente, quero ver o histórico de alterações das regras de negócio, para ter uma visão ampla do fluxo de alterações. | 5 | 2 | RF5 |
-| #6 | Média | Como gerente, quero alterar para versões anteriores das regras de negócio, facilitando sazonalidade de comissões. | 13 | 2 | RF6 |
-| #7 | Baixa | Como gerente, quero acompanhar o funcionamento do sistema, para garantir a explicabilidade das decisões e avaliar seu desempenho e eficiência. | 8 | 3 | RF7 |
-| #8 | Baixa | Como gerente, quero visualizar indicadores por meio de gráficos com os resultados das regras de negócio, para monitorar e compreender melhor o desempenho da aplicação. | 13 | 3 | RF8 |
+| #1  | Alta  | Como gerente, quero utilizar linguagem natural em texto para criar novas regras de negócio, facilitando alteração de comissões. | 21 | 1 | RF1 |
+| #2  | Alta  | Como gerente, quero listar as regras de negócio vigentes, para ter uma visão geral das regras. | 8  | 1 | RF2 |
+| #3  | Alta  | Como gerente, quero ver o resultado de forma clara, da regra de negócio criada, em texto ou em código. | 8  | 2 | RF3 |
+| #4  | Média | Como gerente, quero conseguir visualizar os funcionários, as lojas e as marcas e especificações. | 13 | 2 | RF4 |
+| #5  | Média | Como gerente, quero conseguir calcular as comissões dos funcionários, as lojas e as marcas e especificações. | 13 | 2 | RF5 |
+| #6  | Média | Como gerente, quero alterar para versões anteriores das regras de negócio, facilitando sazonalidade de comissões. | 13 | 3 | RF6 |
+| #7  | Média | Como gerente, quero conseguir avaliar a qualidade da resposta da aplicação, para maior assertividade. | 13 | 3 | RF7 |
+| #8  | Média | Como gerente, quero ver o histórico de alterações das regras de negócio, para ter uma visão ampla do fluxo de alterações. | 5  | 3 | RF8 |
+| #9  | Baixa | Como gerente, quero acompanhar e observar o funcionamento do sistema para entender seu desempenho e eficiência. | 8  | 3 | RF9 |
+| #10 | Baixa | Como gerente, quero ver gráficos com os resultados das regras de negócio, para maior explicabilidade da aplicação. | 13 | 3 | RF10 |
 
 
 <br><br>
@@ -33,11 +35,13 @@ Desenvolvimento de uma aplicação web (RuleAI) que utiliza técnicas de IA Gene
 | RF01 | O sistema deve permitir que o usuário crie novas regras de negócio utilizando linguagem natural em texto, facilitando a definição de comissões. |
 | RF02 | O sistema deve permitir a listagem das regras de negócio vigentes, apresentando uma visão geral ao usuário. |
 | RF03 | O sistema deve apresentar de forma clara o resultado da regra de negócio criada, podendo ser exibido em formato textual ou em código. |
-| RF04 | O sistema deve permitir que o usuário avalie a qualidade das respostas geradas pela aplicação, contribuindo para maior assertividade. |
-| RF05 | O sistema deve registrar e permitir a visualização do histórico de alterações das regras de negócio, possibilitando acompanhamento completo das modificações. |
+| RF04 | O sistema deve permitir a visualização dos funcionários, das lojas, das marcas e suas especificações. |
+| RF05 | O sistema deve permitir o cálculo das comissões considerando funcionários, lojas, marcas e suas especificações. |
 | RF06 | O sistema deve permitir a restauração de versões anteriores das regras de negócio, facilitando a adaptação a cenários sazonais. |
-| RF07 | O sistema deve permitir o acompanhamento do funcionamento geral da aplicação, fornecendo informações sobre desempenho e eficiência. |
-| RF08 | O sistema deve apresentar gráficos com os resultados das regras de negócio, proporcionando maior explicabilidade. |
+| RF07 | O sistema deve permitir que o usuário avalie a qualidade das respostas geradas pela aplicação, contribuindo para maior assertividade. |
+| RF08 | O sistema deve registrar e permitir a visualização do histórico de alterações das regras de negócio, possibilitando acompanhamento completo das modificações. |
+| RF09 | O sistema deve permitir o acompanhamento e a observação do funcionamento da aplicação, fornecendo informações sobre desempenho e eficiência. |
+| RF10 | O sistema deve apresentar gráficos com os resultados das regras de negócio, proporcionando maior explicabilidade da aplicação. |
 
 <br><br>
 
@@ -53,7 +57,7 @@ Desenvolvimento de uma aplicação web (RuleAI) que utiliza técnicas de IA Gene
 <br><br>
 
 ## 🗺️ MVP
-![PHOENIX TEAM - 6SEM - DomRock](https://github.com/user-attachments/assets/1fb3ae0a-adf6-4259-b434-437318e261be)
+<img width="1027" height="576" alt="image" src="https://github.com/user-attachments/assets/34615147-eeb0-4464-989f-97fbe177c06f" />
 
 <br>
 
