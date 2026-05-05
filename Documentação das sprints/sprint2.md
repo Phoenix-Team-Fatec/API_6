@@ -23,30 +23,30 @@ Uma User Story será considerada concluída quando:
 
 | RANK | TIPO | ITEM | STATUS |
 | :--: | :-- | :-- | :--: |
-|#1|Frontend| Input para usuário dar um nome a regra |🕓|
-|#2|Frontend| Tela para visualização de funcionários, comissões, marcas |🕓|
-|#3|Frontend| Listagem de funcionários, comissões, marcas e lojas de acordo com os dados do excel fornecidos|🕓|
-|#4|Frontend| Botão para para cálculo de comissão por marca, loja e funcionário |🕓|
-|#5|Frontend| Card para exibir resultado do cálculo de comissão |🕓|
-|#6|Frontend| Exibir regras de negócio atreladas a um funcionário, marca ou loja ao calcular o comissioanamento |🕓|
-|#7|Back/Front| Integração entre frontend e backend |🕓|
-|#8|Backend| Criar classe Comissão e Cargo|🕓|
-|#9|Backend| MVC Funcionário |🕓|
-|#10|Backend| MVC Loja |🕓|
-|#11|Backend| MVC Marcas |🕓|
-|#12|Backend| MVC Regras de negócio |🕓|
-|#13|Backend| Rota para calcular comissão |🕓|
+|#1|Frontend| Input para usuário dar um nome a regra |✅|
+|#2|Frontend| Tela para visualização de funcionários, comissões, marcas |✅|
+|#3|Frontend| Listagem de funcionários, comissões, marcas e lojas de acordo com os dados do excel fornecidos|✅|
+|#4|Frontend| Botão para para cálculo de comissão por marca, loja e funcionário |✅|
+|#5|Frontend| Card para exibir resultado do cálculo de comissão |✅|
+|#6|Frontend| Exibir regras de negócio atreladas a um funcionário, marca ou loja ao calcular o comissioanamento |✅|
+|#7|Back/Front| Integração entre frontend e backend |✅|
+|#8|Backend| Criar classe Comissão e Cargo|✅|
+|#9|Backend| MVC Funcionário |✅|
+|#10|Backend| MVC Loja |✅|
+|#11|Backend| MVC Marcas |✅|
+|#12|Backend| MVC Regras de negócio |✅|
+|#13|Backend| Rota para calcular comissão |✅|
 |#14|ML/IA| Criar workflow com langgraph permitindo criar um agente com padrão ReAct, o agente deve seguir o seguinte fluxo: start -> agent <-> contexto -> code_generator -> code_review -> end |✅|
 |#15|ML/IA| Criar rota para direcionar input do usuário para o agente  |✅|
 |#16|ML/IA| Criar rota para realizar o cálculo do comissionamento |✅|
 |#17|ML/IA| Gerar objeto da regra de negócio solicitada pelo usuário |✅|
-|#18|ML/IA| Método para validação da regra de negócio gerada (pandas ou texto) |🕓|
+|#18|ML/IA| Método para validação da regra de negócio gerada (pandas ou texto) |✅|
 |#19|ML/IA| Revisão de código gerado antes da geração do objeto |✅|
-|#20|ML/IA| Aplicar observabilidade do agente para controlar latência de resposta, quantidade de tokens, versionamento de prompts, qualidade da resposta |🕓|
-|#21|Scrum Master| Aceitar pull requests e realizar merge |🕓|
-|#22|Backend| Autenticação usuário  |🕓|
-|#23|Backend| MVC Usuário  |🕓|
-|#24|Backend/Frontend| Integração da tela de cadastro  |🕓|
+|#20|ML/IA| Aplicar observabilidade do agente para controlar latência de resposta, quantidade de tokens, versionamento de prompts, qualidade da resposta |✅|
+|#21|Scrum Master| Aceitar pull requests e realizar merge |✅|
+|#22|Backend| Autenticação usuário  |✅|
+|#23|Backend| MVC Usuário  |✅|
+|#24|Backend/Frontend| Integração da tela de cadastro  |✅|
 
 
 
@@ -54,30 +54,30 @@ Uma User Story será considerada concluída quando:
 
 | RANK | ITEM | STATUS |
 | :--: | :-- | :--: |
-|#1|O sistema deve permitir ao usuário inserir e salvar um nome válido para a regra de negócio.|🕓|
-|#2|O sistema deve exibir uma tela com visualização organizada de funcionários, comissões e marcas.|🕓|
-|#3|O sistema deve listar corretamente funcionários, comissões, marcas e lojas com base nos dados do Excel fornecido.|🕓|
-|#4|O sistema deve permitir acionar o cálculo de comissão por meio de um botão funcional na interface.|🕓|
-|#5|O sistema deve exibir o resultado do cálculo de comissão em formato de card visual.|🕓|
-|#6|O sistema deve apresentar as regras de negócio aplicadas ao cálculo conforme funcionário, marca ou loja.|🕓|
-|#7|O frontend e backend devem estar integrados garantindo comunicação consistente via API.|🕓|
-|#8|O sistema deve possuir uma classe Comissão com a comissão de cada cargo e uma classe Cargo, com os tipos de cargo.|🕓|
-|#9|O sistema deve implementar a vizualização para a entidade Funcionário.|🕓|
-|#10|O sistema deve implementar a vizualização para a entidade Loja.|🕓|
-|#11|O sistema deve implementar a vizualização para a entidade Marca.|🕓|
-|#12|O sistema deve implementar operações de CRUD para regras de negócio.|🕓|
-|#13|O sistema deve disponibilizar uma rota que realize o cálculo de comissão com base nos parâmetros informados.|🕓|
+|#1|O sistema deve permitir ao usuário inserir e salvar um nome válido para a regra de negócio.|✅|
+|#2|O sistema deve exibir uma tela com visualização organizada de funcionários, comissões e marcas.|✅|
+|#3|O sistema deve listar corretamente funcionários, comissões, marcas e lojas com base nos dados do Excel fornecido.|✅|
+|#4|O sistema deve permitir acionar o cálculo de comissão por meio de um botão funcional na interface.|✅|
+|#5|O sistema deve exibir o resultado do cálculo de comissão em formato de card visual.|✅|
+|#6|O sistema deve apresentar as regras de negócio aplicadas ao cálculo conforme funcionário, marca ou loja.|✅|
+|#7|O frontend e backend devem estar integrados garantindo comunicação consistente via API.|✅|
+|#8|O sistema deve possuir uma classe Comissão com a comissão de cada cargo e uma classe Cargo, com os tipos de cargo.|✅|
+|#9|O sistema deve implementar a vizualização para a entidade Funcionário.|✅|
+|#10|O sistema deve implementar a vizualização para a entidade Loja.|✅|
+|#11|O sistema deve implementar a vizualização para a entidade Marca.|✅|
+|#12|O sistema deve implementar operações de CRUD para regras de negócio.|✅|
+|#13|O sistema deve disponibilizar uma rota que realize o cálculo de comissão com base nos parâmetros informados.|✅|
 |#14|O sistema deve implementar um workflow com LangGraph seguindo o padrão ReAct definido.|✅|
 |#15|O sistema deve disponibilizar uma rota que receba o input do usuário e direcione ao agente de IA.|✅|
 |#16|O sistema deve disponibilizar uma rota para cálculo de comissionamento utilizando IA.|✅|
 |#17|O sistema deve gerar automaticamente um objeto de regra de negócio a partir do input do usuário.|✅|
-|#18|O sistema deve validar a regra de negócio gerada antes de sua execução.|🕓|
+|#18|O sistema deve validar a regra de negócio gerada antes de sua execução.|✅|
 |#19|O sistema deve revisar o código gerado pelo agente antes de transformá-lo em regra válida.|✅|
-|#20|O sistema deve implementar observabilidade do agente incluindo métricas de latência, tokens e qualidade.|🕓|
-|#21|Os pull requests devem ser revisados, aprovados e integrados corretamente à branch principal.|🕓|
-|#22|O sistema deve permitir que o usuário se autentique com credenciais válidas, concedendo acesso seguro à aplicação.|🕓|
-|#23|O sistema deve implementar a estrutura MVC para gerenciamento de usuários, permitindo operações básicas de CRUD.|🕓|
-|#24|O sistema deve integrar a tela de cadastro ao backend, garantindo o envio e persistência correta dos dados do usuário.|🕓|
+|#20|O sistema deve implementar observabilidade do agente incluindo métricas de latência, tokens e qualidade.|✅|
+|#21|Os pull requests devem ser revisados, aprovados e integrados corretamente à branch principal.|✅|
+|#22|O sistema deve permitir que o usuário se autentique com credenciais válidas, concedendo acesso seguro à aplicação.|✅|
+|#23|O sistema deve implementar a estrutura MVC para gerenciamento de usuários, permitindo operações básicas de CRUD.|✅|
+|#24|O sistema deve integrar a tela de cadastro ao backend, garantindo o envio e persistência correta dos dados do usuário.|✅|
 
 ## 🎯 Cenários de Teste da Sprint 2
 
