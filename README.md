@@ -67,6 +67,8 @@ Desenvolvimento de uma aplicação web (RuleAI) que utiliza técnicas de IA Gene
 
 [Sprint 2](./Documentação%20das%20sprints/sprint2.md)
 
+[Sprint 3](./Documentação%20das%20sprints/sprint3.md)
+
 <br>
 
 ## 🛠️ Tecnologias
