@@ -57,7 +57,7 @@ Desenvolvimento de uma aplicação web (RuleAI) que utiliza técnicas de IA Gene
 <br><br>
 
 ## 🗺️ MVP
-<img width="1027" height="576" alt="image" src="https://github.com/user-attachments/assets/34615147-eeb0-4464-989f-97fbe177c06f" />
+<img width="1920" height="1080" alt="PHOENIX TEAM - 6SEM - DomRock" src="https://github.com/user-attachments/assets/d05afbcb-50a0-4f9a-ab6c-759a8ffc30fe" />
 
 <br>
 
