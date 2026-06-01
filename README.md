@@ -19,9 +19,8 @@ Desenvolvimento de uma aplicação web (RuleAI) que utiliza técnicas de IA Gene
 | #3  | Alta  | Como gerente, quero ver o resultado de forma clara, da regra de negócio criada, em texto ou em código. | 8  | 2 | RF3 |
 | #4  | Média | Como gerente, quero conseguir visualizar os funcionários, as lojas e as marcas e especificações. | 13 | 2 | RF4 |
 | #5  | Média | Como gerente, quero conseguir calcular as comissões dos funcionários, as lojas e as marcas e especificações. | 13 | 2 | RF5 |
-| #6  | Média | Como gerente, quero alterar para versões anteriores das regras de negócio, facilitando sazonalidade de comissões. | 13 | 3 | RF6 |
-| #7  | Média | Como gerente, quero ver o histórico de alterações das regras de negócio, para ter uma visão ampla do fluxo de alterações. | 5  | 3 | RF8 |
-| #8  | Baixa | Como gerente, quero acompanhar e observar o funcionamento do sistema para entender seu desempenho e eficiência. | 8  | 3 | RF9 |
+| #6  | Média | Como gerente, quero conseguir auditar o cálculo de comissão. | 13 | 3 | RF6 |
+| #7  | Baixa | Como gerente, quero acompanhar e observar o funcionamento do sistema para entender seu desempenho e eficiência. | 8  | 3 | RF9 |
 
 <br><br>
 
@@ -34,9 +33,8 @@ Desenvolvimento de uma aplicação web (RuleAI) que utiliza técnicas de IA Gene
 | RF03 | O sistema deve apresentar de forma clara o resultado da regra de negócio criada, podendo ser exibido em formato textual ou em código. |
 | RF04 | O sistema deve permitir a visualização dos funcionários, das lojas, das marcas e suas especificações. |
 | RF05 | O sistema deve permitir o cálculo das comissões considerando funcionários, lojas, marcas e suas especificações. |
-| RF06 | O sistema deve permitir a restauração de versões anteriores das regras de negócio, facilitando a adaptação a cenários sazonais. |
-| RF07 | O sistema deve registrar e permitir a visualização do histórico de alterações das regras de negócio, possibilitando acompanhamento completo das modificações. |
-| RF08 | O sistema deve permitir o acompanhamento e a observação do funcionamento da aplicação, fornecendo informações sobre desempenho e eficiência. |
+| RF06 | O sistema deve permitir a auditoria das comissões. |
+| RF07 | O sistema deve permitir o acompanhamento e a observação do funcionamento da aplicação, fornecendo informações sobre desempenho e eficiência. |
 
 <br><br>
 
@@ -52,7 +50,7 @@ Desenvolvimento de uma aplicação web (RuleAI) que utiliza técnicas de IA Gene
 <br><br>
 
 ## 🗺️ MVP
-<img width="1920" height="1080" alt="PHOENIX TEAM - 6SEM - DomRock(2)" src="https://github.com/user-attachments/assets/5869213f-2261-4999-97b9-9ad10ba98ef9" />
+<img width="1920" height="1080" alt="PHOENIX TEAM - 6SEM - DomRock" src="https://github.com/user-attachments/assets/7c7ea29d-de1f-4a30-b1bf-493749b3f9ff" />
 
 <br>
 
